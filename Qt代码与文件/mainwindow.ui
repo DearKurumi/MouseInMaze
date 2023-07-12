@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>851</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>851</width>
+    <height>601</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>851</width>
+    <height>601</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>60</y>
+      <width>351</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>351</width>
+      <height>91</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>351</width>
+      <height>91</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>28</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-image: url(:/new/prefix1/pictures/LabelMazeInMaze.png);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="selectButton">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>140</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>131</width>
+      <height>51</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>131</width>
+      <height>51</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文琥珀</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(255, 80, 50);
+background:qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+stop:0 rgba(204, 250, 227, 255), /*第1个颜色值*/
+stop:0.25 rgba(126, 242, 185, 255), /*第2个颜色值*/
+stop:0.5 rgba(76, 237, 157, 255), /*第3个颜色值*/
+stop:0.65 rgba(91, 239, 166, 255), /*第4个颜色值*/
+stop:1 rgba(184, 248, 217, 255));/*第5个颜色值*/
+border: 2px solid rgb(78,238,158);/*边框颜色值*/
+border-radius: 10px;</string>
+    </property>
+    <property name="text">
+     <string>选关模式</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="randomButton">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>240</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>131</width>
+      <height>51</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>131</width>
+      <height>51</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文琥珀</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(225, 238, 0);
+background:qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+stop:0 rgba(199, 238, 249, 255), 
+stop:0.25 rgba(132, 217, 243, 255), 
+stop:0.5 rgba(80, 200, 238, 255), 
+stop:0.65 rgba(87, 203, 239, 255), 
+stop:1 rgba(186, 233, 249, 255));
+ border: 2px solid rgb(106,208,240);
+ border-radius: 10px;</string>
+    </property>
+    <property name="text">
+     <string>随机模式</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="DIYButton">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>340</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>131</width>
+      <height>51</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>131</width>
+      <height>51</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文琥珀</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(150, 50, 255);
+background:qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+stop:0 rgba(247, 250, 204, 255), 
+stop:0.25 rgba(236, 243, 133, 255), 
+stop:0.5 rgba(226, 237, 76, 255), 
+stop:0.65 rgba(229, 239, 91, 255), 
+stop:1 rgba(229, 233, 160, 255));
+ border: 2px solid rgb(225,238,78);
+ border-radius: 10px;</string>
+    </property>
+    <property name="text">
+     <string>自定义模式</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exitButton">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>440</y>
+      <width>131</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>131</width>
+      <height>51</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>131</width>
+      <height>51</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>华文琥珀</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(150, 255, 255);
+background:qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, 
+stop:0 rgba(250, 204, 246, 255), /*第1个颜色值*/
+stop:0.25 rgba(243, 144, 236, 255), /*第2个颜色值*/
+stop:0.5 rgba(238, 81, 223, 255), /*第3个颜色值*/
+stop:0.65 rgba(239, 92, 225, 255), /*第4个颜色值*/
+stop:1 rgba(249, 186, 243, 255));/*第5个颜色值*/
+border: 2px solid rgb(240,102,255);/*边框颜色值*/
+ border-radius: 10px;</string>
+    </property>
+    <property name="text">
+     <string>退出游戏</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>851</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

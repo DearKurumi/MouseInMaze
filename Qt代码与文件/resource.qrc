@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>pictures/background.jpg</file>
+        <file>pictures/cheese.png</file>
+        <file>pictures/mouse.png</file>
+        <file>pictures/LabelMazeInMaze.png</file>
+        <file>pictures/tree.png</file>
+        <file>pictures/alarm.png</file>
+        <file>pictures/failure.png</file>
+        <file>pictures/victory.png</file>
+        <file>pictures/grass.jpg</file>
+        <file>pictures/downArrow.png</file>
+        <file>pictures/leftArrow.png</file>
+        <file>pictures/rightArrow.png</file>
+        <file>pictures/upArrow.png</file>
+        <file>pictures/note.png</file>
+        <file>pictures/move.png</file>
+        <file>pictures/switch.png</file>
+        <file>selectMaze/maze1.txt</file>
+        <file>selectMaze/maze2.txt</file>
+        <file>selectMaze/maze3.txt</file>
+        <file>selectMaze/maze4.txt</file>
+        <file>selectMaze/maze5.txt</file>
+        <file>selectMaze/maze6.txt</file>
+        <file>selectMaze/maze7.txt</file>
+        <file>selectMaze/maze8.txt</file>
+        <file>selectMaze/maze9.txt</file>
+        <file>selectMaze/maze10.txt</file>
+        <file>selectMaze/maze11.txt</file>
+        <file>selectMaze/maze12.txt</file>
+        <file>selectMaze/maze13.txt</file>
+        <file>selectMaze/maze14.txt</file>
+        <file>selectMaze/maze15.txt</file>
+        <file>selectMaze/maze16.txt</file>
+        <file>selectMaze/maze17.txt</file>
+        <file>selectMaze/maze18.txt</file>
+        <file>selectMaze/maze19.txt</file>
+        <file>selectMaze/maze20.txt</file>
+    </qresource>
+</RCC>
